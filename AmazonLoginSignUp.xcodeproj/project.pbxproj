@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5044B7492C335E8C0058D675 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5044B7482C335E8C0058D675 /* LoginViewController.swift */; };
+		5044B74B2C3376930058D675 /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5044B74A2C3376930058D675 /* ForgotViewController.swift */; };
+		5044B74D2C337F3E0058D675 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5044B74C2C337F3E0058D675 /* CreateViewController.swift */; };
+		5044B7532C33A0360058D675 /* PrivacyConditionHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5044B7522C33A0360058D675 /* PrivacyConditionHelp.swift */; };
+		504F06592C3C58D8000E96D4 /* iPhone-13-PRO-www.amazon.in.png in Resources */ = {isa = PBXBuildFile; fileRef = 504F06582C3C58D8000E96D4 /* iPhone-13-PRO-www.amazon.in.png */; };
+		5053D88E2C31EF4100F9322F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5053D88D2C31EF4100F9322F /* SceneDelegate.swift */; };
+		5053D8932C31EF4100F9322F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5053D8912C31EF4100F9322F /* Main.storyboard */; };
+		5053D8952C31EF4200F9322F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5053D8942C31EF4200F9322F /* Assets.xcassets */; };
+		5053D8982C31EF4200F9322F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5053D8962C31EF4200F9322F /* LaunchScreen.storyboard */; };
+		505946702C40A47900369D15 /* CustomTableViewCell5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5059466F2C40A47900369D15 /* CustomTableViewCell5.swift */; };
+		505946722C40A9A700369D15 /* SeparatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505946712C40A9A700369D15 /* SeparatorTableViewCell.swift */; };
+		5086E6D82C3E135B00BC7355 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5086E6D72C3E135B00BC7355 /* BannerCollectionViewCell.swift */; };
+		5086E6DA2C3E242600BC7355 /* BannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5086E6D92C3E242600BC7355 /* BannerTableViewCell.swift */; };
+		5090F9DC2C41A85700D3FA45 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5090F9DB2C41A85700D3FA45 /* ProductCollectionViewCell.xib */; };
+		5090F9E02C41ABDF00D3FA45 /* SeparatorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5090F9DF2C41ABDF00D3FA45 /* SeparatorTableViewCell.xib */; };
+		5090FA412C42032500D3FA45 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F06562C3C5811000E96D4 /* HomeViewController.swift */; };
+		5090FA422C42045800D3FA45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5053D88B2C31EF4100F9322F /* AppDelegate.swift */; };
+		509C60C82C3F06DA0000ECCB /* BrandTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509C60C72C3F06DA0000ECCB /* BrandTableViewCell.swift */; };
+		509C60CA2C3F07060000ECCB /* BrandCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509C60C92C3F07060000ECCB /* BrandCollectionViewCell.swift */; };
+		509C60CD2C3F10330000ECCB /* WhatsApp Image 2024-07-09 at 11.12.20 PM.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 509C60CB2C3F10320000ECCB /* WhatsApp Image 2024-07-09 at 11.12.20 PM.jpeg */; };
+		509C60CE2C3F10330000ECCB /* WhatsApp Image 2024-07-09 at 11.12.22 PM.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 509C60CC2C3F10330000ECCB /* WhatsApp Image 2024-07-09 at 11.12.22 PM.jpeg */; };
+		509C60D62C3FB9990000ECCB /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509C60D52C3FB9990000ECCB /* ProductTableViewCell.swift */; };
+		509C60D82C3FBA0A0000ECCB /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509C60D72C3FBA0A0000ECCB /* ProductCollectionViewCell.swift */; };
+		509C60DA2C3FC3870000ECCB /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509C60D92C3FC3870000ECCB /* CategoryTableViewCell.swift */; };
+		50B5AC8A2C41928B001BCF96 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50B5AC892C41928B001BCF96 /* CategoryCollectionViewCell.xib */; };
+		50B5AC8E2C419712001BCF96 /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50B5AC8D2C419712001BCF96 /* BannerCollectionViewCell.xib */; };
+		50B5AC902C419F33001BCF96 /* BrandCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50B5AC8F2C419F33001BCF96 /* BrandCollectionViewCell.xib */; };
+		50E913582C3C8A470008F10A /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E913572C3C8A470008F10A /* CategoryCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5044B7482C335E8C0058D675 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5044B74A2C3376930058D675 /* ForgotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		5044B74C2C337F3E0058D675 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		5044B7522C33A0360058D675 /* PrivacyConditionHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyConditionHelp.swift; sourceTree = "<group>"; };
+		504F06562C3C5811000E96D4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		504F06582C3C58D8000E96D4 /* iPhone-13-PRO-www.amazon.in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone-13-PRO-www.amazon.in.png"; sourceTree = "<group>"; };
+		5053D8882C31EF4100F9322F /* AmazonLoginSignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonLoginSignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5053D88B2C31EF4100F9322F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5053D88D2C31EF4100F9322F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5053D8922C31EF4100F9322F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5053D8942C31EF4200F9322F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5053D8972C31EF4200F9322F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5053D8992C31EF4200F9322F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5059466F2C40A47900369D15 /* CustomTableViewCell5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell5.swift; sourceTree = "<group>"; };
+		505946712C40A9A700369D15 /* SeparatorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorTableViewCell.swift; sourceTree = "<group>"; };
+		5086E6D72C3E135B00BC7355 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		5086E6D92C3E242600BC7355 /* BannerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableViewCell.swift; sourceTree = "<group>"; };
+		5090F9DB2C41A85700D3FA45 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		5090F9DF2C41ABDF00D3FA45 /* SeparatorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeparatorTableViewCell.xib; sourceTree = "<group>"; };
+		509C60C72C3F06DA0000ECCB /* BrandTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandTableViewCell.swift; sourceTree = "<group>"; };
+		509C60C92C3F07060000ECCB /* BrandCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCollectionViewCell.swift; sourceTree = "<group>"; };
+		509C60CB2C3F10320000ECCB /* WhatsApp Image 2024-07-09 at 11.12.20 PM.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2024-07-09 at 11.12.20 PM.jpeg"; sourceTree = "<group>"; };
+		509C60CC2C3F10330000ECCB /* WhatsApp Image 2024-07-09 at 11.12.22 PM.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2024-07-09 at 11.12.22 PM.jpeg"; sourceTree = "<group>"; };
+		509C60D52C3FB9990000ECCB /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		509C60D72C3FBA0A0000ECCB /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		509C60D92C3FC3870000ECCB /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		50B5AC892C41928B001BCF96 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		50B5AC8D2C419712001BCF96 /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
+		50B5AC8F2C419F33001BCF96 /* BrandCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrandCollectionViewCell.xib; sourceTree = "<group>"; };
+		50E913572C3C8A470008F10A /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5053D8852C31EF4100F9322F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5053D87F2C31EF4100F9322F = {
+			isa = PBXGroup;
+			children = (
+				5053D88A2C31EF4100F9322F /* AmazonLoginSignUp */,
+				5053D8892C31EF4100F9322F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5053D8892C31EF4100F9322F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5053D8882C31EF4100F9322F /* AmazonLoginSignUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5053D88A2C31EF4100F9322F /* AmazonLoginSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				504F06582C3C58D8000E96D4 /* iPhone-13-PRO-www.amazon.in.png */,
+				509C60CB2C3F10320000ECCB /* WhatsApp Image 2024-07-09 at 11.12.20 PM.jpeg */,
+				509C60CC2C3F10330000ECCB /* WhatsApp Image 2024-07-09 at 11.12.22 PM.jpeg */,
+				5053D88B2C31EF4100F9322F /* AppDelegate.swift */,
+				5053D88D2C31EF4100F9322F /* SceneDelegate.swift */,
+				5053D8912C31EF4100F9322F /* Main.storyboard */,
+				5053D8942C31EF4200F9322F /* Assets.xcassets */,
+				5053D8962C31EF4200F9322F /* LaunchScreen.storyboard */,
+				5053D8992C31EF4200F9322F /* Info.plist */,
+				5044B7482C335E8C0058D675 /* LoginViewController.swift */,
+				5044B74A2C3376930058D675 /* ForgotViewController.swift */,
+				5044B74C2C337F3E0058D675 /* CreateViewController.swift */,
+				5044B7522C33A0360058D675 /* PrivacyConditionHelp.swift */,
+				504F06562C3C5811000E96D4 /* HomeViewController.swift */,
+				509C60D92C3FC3870000ECCB /* CategoryTableViewCell.swift */,
+				50E913572C3C8A470008F10A /* CategoryCollectionViewCell.swift */,
+				5086E6D72C3E135B00BC7355 /* BannerCollectionViewCell.swift */,
+				5086E6D92C3E242600BC7355 /* BannerTableViewCell.swift */,
+				509C60C72C3F06DA0000ECCB /* BrandTableViewCell.swift */,
+				509C60C92C3F07060000ECCB /* BrandCollectionViewCell.swift */,
+				509C60D52C3FB9990000ECCB /* ProductTableViewCell.swift */,
+				509C60D72C3FBA0A0000ECCB /* ProductCollectionViewCell.swift */,
+				5059466F2C40A47900369D15 /* CustomTableViewCell5.swift */,
+				505946712C40A9A700369D15 /* SeparatorTableViewCell.swift */,
+				50B5AC892C41928B001BCF96 /* CategoryCollectionViewCell.xib */,
+				50B5AC8D2C419712001BCF96 /* BannerCollectionViewCell.xib */,
+				50B5AC8F2C419F33001BCF96 /* BrandCollectionViewCell.xib */,
+				5090F9DB2C41A85700D3FA45 /* ProductCollectionViewCell.xib */,
+				5090F9DF2C41ABDF00D3FA45 /* SeparatorTableViewCell.xib */,
+			);
+			path = AmazonLoginSignUp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5053D8872C31EF4100F9322F /* AmazonLoginSignUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5053D89C2C31EF4200F9322F /* Build configuration list for PBXNativeTarget "AmazonLoginSignUp" */;
+			buildPhases = (
+				5053D8842C31EF4100F9322F /* Sources */,
+				5053D8852C31EF4100F9322F /* Frameworks */,
+				5053D8862C31EF4100F9322F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazonLoginSignUp;
+			productName = AmazonLoginSignUp;
+			productReference = 5053D8882C31EF4100F9322F /* AmazonLoginSignUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5053D8802C31EF4100F9322F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5053D8872C31EF4100F9322F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5053D8832C31EF4100F9322F /* Build configuration list for PBXProject "AmazonLoginSignUp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5053D87F2C31EF4100F9322F;
+			productRefGroup = 5053D8892C31EF4100F9322F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5053D8872C31EF4100F9322F /* AmazonLoginSignUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5053D8862C31EF4100F9322F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5053D8982C31EF4200F9322F /* LaunchScreen.storyboard in Resources */,
+				5053D8952C31EF4200F9322F /* Assets.xcassets in Resources */,
+				5090F9DC2C41A85700D3FA45 /* ProductCollectionViewCell.xib in Resources */,
+				50B5AC902C419F33001BCF96 /* BrandCollectionViewCell.xib in Resources */,
+				509C60CD2C3F10330000ECCB /* WhatsApp Image 2024-07-09 at 11.12.20 PM.jpeg in Resources */,
+				5053D8932C31EF4100F9322F /* Main.storyboard in Resources */,
+				504F06592C3C58D8000E96D4 /* iPhone-13-PRO-www.amazon.in.png in Resources */,
+				50B5AC8A2C41928B001BCF96 /* CategoryCollectionViewCell.xib in Resources */,
+				50B5AC8E2C419712001BCF96 /* BannerCollectionViewCell.xib in Resources */,
+				509C60CE2C3F10330000ECCB /* WhatsApp Image 2024-07-09 at 11.12.22 PM.jpeg in Resources */,
+				5090F9E02C41ABDF00D3FA45 /* SeparatorTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5053D8842C31EF4100F9322F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5086E6DA2C3E242600BC7355 /* BannerTableViewCell.swift in Sources */,
+				509C60CA2C3F07060000ECCB /* BrandCollectionViewCell.swift in Sources */,
+				5044B7492C335E8C0058D675 /* LoginViewController.swift in Sources */,
+				5090FA412C42032500D3FA45 /* HomeViewController.swift in Sources */,
+				5044B74D2C337F3E0058D675 /* CreateViewController.swift in Sources */,
+				50E913582C3C8A470008F10A /* CategoryCollectionViewCell.swift in Sources */,
+				509C60DA2C3FC3870000ECCB /* CategoryTableViewCell.swift in Sources */,
+				5044B7532C33A0360058D675 /* PrivacyConditionHelp.swift in Sources */,
+				505946702C40A47900369D15 /* CustomTableViewCell5.swift in Sources */,
+				509C60D82C3FBA0A0000ECCB /* ProductCollectionViewCell.swift in Sources */,
+				5044B74B2C3376930058D675 /* ForgotViewController.swift in Sources */,
+				509C60D62C3FB9990000ECCB /* ProductTableViewCell.swift in Sources */,
+				5086E6D82C3E135B00BC7355 /* BannerCollectionViewCell.swift in Sources */,
+				509C60C82C3F06DA0000ECCB /* BrandTableViewCell.swift in Sources */,
+				5053D88E2C31EF4100F9322F /* SceneDelegate.swift in Sources */,
+				5090FA422C42045800D3FA45 /* AppDelegate.swift in Sources */,
+				505946722C40A9A700369D15 /* SeparatorTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5053D8912C31EF4100F9322F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5053D8922C31EF4100F9322F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5053D8962C31EF4200F9322F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5053D8972C31EF4200F9322F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5053D89A2C31EF4200F9322F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5053D89B2C31EF4200F9322F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5053D89D2C31EF4200F9322F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmazonLoginSignUp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PushpendraCS.AmazonLoginSignUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5053D89E2C31EF4200F9322F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmazonLoginSignUp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PushpendraCS.AmazonLoginSignUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5053D8832C31EF4100F9322F /* Build configuration list for PBXProject "AmazonLoginSignUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5053D89A2C31EF4200F9322F /* Debug */,
+				5053D89B2C31EF4200F9322F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5053D89C2C31EF4200F9322F /* Build configuration list for PBXNativeTarget "AmazonLoginSignUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5053D89D2C31EF4200F9322F /* Debug */,
+				5053D89E2C31EF4200F9322F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5053D8802C31EF4100F9322F /* Project object */;
+}
